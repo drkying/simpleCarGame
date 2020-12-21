@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OpenGLProject.dir/a.cpp.obj"
+  "CMakeFiles/OpenGLProject.dir/main.cpp.obj"
   "OpenGLProject.exe"
   "OpenGLProject.exe.manifest"
   "OpenGLProject.pdb"

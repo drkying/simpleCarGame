@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="G:/c/OpenGLProject/a.cpp">
+		<Unit filename="G:/c/OpenGLProject/main.cpp">
 			<Option target="OpenGLProject"/>
 		</Unit>
 		<Unit filename="G:/c/OpenGLProject/CMakeLists.txt">

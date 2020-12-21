@@ -142,32 +142,32 @@ OpenGLProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLProject.dir\build.make CMakeFiles/OpenGLProject.dir/build
 .PHONY : OpenGLProject/fast
 
-a.obj: a.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : a.obj
+.PHONY : main.obj
 
 # target to build an object file
-a.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLProject.dir\build.make CMakeFiles/OpenGLProject.dir/a.cpp.obj
-.PHONY : a.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLProject.dir\build.make CMakeFiles/OpenGLProject.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-a.i: a.cpp.i
+main.i: main.cpp.i
 
-.PHONY : a.i
+.PHONY : main.i
 
 # target to preprocess a source file
-a.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLProject.dir\build.make CMakeFiles/OpenGLProject.dir/a.cpp.i
-.PHONY : a.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLProject.dir\build.make CMakeFiles/OpenGLProject.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-a.s: a.cpp.s
+main.s: main.cpp.s
 
-.PHONY : a.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-a.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLProject.dir\build.make CMakeFiles/OpenGLProject.dir/a.cpp.s
-.PHONY : a.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLProject.dir\build.make CMakeFiles/OpenGLProject.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OpenGLProject
-	@echo ... a.obj
-	@echo ... a.i
-	@echo ... a.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

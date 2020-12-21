@@ -76,27 +76,27 @@ include CMakeFiles/OpenGLProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGLProject.dir/flags.make
 
-CMakeFiles/OpenGLProject.dir/a.cpp.obj: CMakeFiles/OpenGLProject.dir/flags.make
-CMakeFiles/OpenGLProject.dir/a.cpp.obj: ../a.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\c\OpenGLProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLProject.dir/a.cpp.obj"
-	C:\PROGRA~2\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGLProject.dir\a.cpp.obj -c G:\c\OpenGLProject\a.cpp
+CMakeFiles/OpenGLProject.dir/main.cpp.obj: CMakeFiles/OpenGLProject.dir/flags.make
+CMakeFiles/OpenGLProject.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\c\OpenGLProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLProject.dir/main.cpp.obj"
+	C:\PROGRA~2\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGLProject.dir\main.cpp.obj -c G:\c\OpenGLProject\main.cpp
 
-CMakeFiles/OpenGLProject.dir/a.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLProject.dir/a.cpp.i"
-	C:\PROGRA~2\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\c\OpenGLProject\a.cpp > CMakeFiles\OpenGLProject.dir\a.cpp.i
+CMakeFiles/OpenGLProject.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLProject.dir/main.cpp.i"
+	C:\PROGRA~2\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\c\OpenGLProject\main.cpp > CMakeFiles\OpenGLProject.dir\main.cpp.i
 
-CMakeFiles/OpenGLProject.dir/a.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLProject.dir/a.cpp.s"
-	C:\PROGRA~2\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\c\OpenGLProject\a.cpp -o CMakeFiles\OpenGLProject.dir\a.cpp.s
+CMakeFiles/OpenGLProject.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLProject.dir/main.cpp.s"
+	C:\PROGRA~2\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\c\OpenGLProject\main.cpp -o CMakeFiles\OpenGLProject.dir\main.cpp.s
 
 # Object files for target OpenGLProject
 OpenGLProject_OBJECTS = \
-"CMakeFiles/OpenGLProject.dir/a.cpp.obj"
+"CMakeFiles/OpenGLProject.dir/main.cpp.obj"
 
 # External object files for target OpenGLProject
 OpenGLProject_EXTERNAL_OBJECTS =
 
-OpenGLProject.exe: CMakeFiles/OpenGLProject.dir/a.cpp.obj
+OpenGLProject.exe: CMakeFiles/OpenGLProject.dir/main.cpp.obj
 OpenGLProject.exe: CMakeFiles/OpenGLProject.dir/build.make
 OpenGLProject.exe: CMakeFiles/OpenGLProject.dir/linklibs.rsp
 OpenGLProject.exe: CMakeFiles/OpenGLProject.dir/objects1.rsp

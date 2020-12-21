@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-G:/c/OpenGLProject/a.cpp
-windows.h
--
-gl/gl.h
--
-gl/glu.h
--
-gl/glaux.h
--
+G:/c/OpenGLProject/main.cpp
 stdio.h
 -
+gl/glut.h
+G:/c/OpenGLProject/gl/glut.h
 math.h
 -
 
