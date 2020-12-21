@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\OpenGLProject.dir/objects.a
+C:\PROGRA~2\MinGW\bin\ar.exe cr CMakeFiles\OpenGLProject.dir/objects.a @CMakeFiles\OpenGLProject.dir\objects1.rsp
+C:\PROGRA~2\MinGW\bin\G__~1.EXE  -std=c++11 -D FREEGLUT_STATIC -g   -Wl,--whole-archive CMakeFiles\OpenGLProject.dir/objects.a -Wl,--no-whole-archive  -o OpenGLProject.exe -Wl,--out-implib,libOpenGLProject.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenGLProject.dir\linklibs.rsp

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/c/OpenGLProject/a.cpp
+windows.h
+-
+gl/gl.h
+-
+gl/glu.h
+-
+gl/glaux.h
+-
+stdio.h
+-
+math.h
+-
+
