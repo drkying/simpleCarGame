@@ -1,1 +1,1 @@
- -lfreeglut_static -lopengl32 -lwinmm -lgdi32 -lglu32 -lglaux -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -L"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib"  -lfreeglut_static -lopengl32 -lwinmm -lgdi32 -lglu32 -lglaux -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
